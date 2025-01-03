@@ -1,13 +1,9 @@
 local Keys {
   [1] = {
-    Item = "UltraScripts";
-    Enabled = true;
+    Key = "UltraScripts";
     Active = true;
-    Expire = 0;
   },
   [2] = {
-    Item = "climbing";
-    Enabled = false;
+    Key = "climbing";
     Active = true;
-    Expire = 1;
   },
