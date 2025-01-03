@@ -1,3 +1,5 @@
+local http = game:GetService("HttpService")
+
 local function SendMessageEMBED(url, embed, mention)
     local response = request({
         Url = url,
