@@ -17,3 +17,7 @@ local function SendMessageEMBED(url, embed, mention)
         })
     })
 end
+
+return {
+    SendMessageEmbed = SendMessageEmbed
+}
