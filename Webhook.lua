@@ -12,7 +12,17 @@ local function SendMessageEMBED(url, embed, mention)
                 description = embed.description,
                 color = embed.color,
                 fields = embed.fields,
-                footer = {text = embed.footer.text}
+                footer = {
+                    text = embed.footer.text,
+                    icon_url = embed.footer.icon_url
+                },
+                thumbnail = {
+                    url = embed.thumbnail.url
+                },
+                author = {
+                    name = embed.author.name,
+                    icon_url = embed.author.icon_url 
+                }
             }}
         })
     })
